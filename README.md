@@ -53,6 +53,6 @@ The following components are **not published** on this public repo, but are avai
 
 A screenshot of the home screen from the private part of the project is included below to give a visual sense of the complete system:
 
-![Home Screen Preview](./assets/home_screen.png)  
+![Home Screen Preview](./assets/Home_Page.png)  
 
 ---
