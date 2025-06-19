@@ -36,14 +36,25 @@ Dataset used for testing and training purposes: **NIST Special Database 4**, 8-B
 [Link to the dataset provided in the description].  
 
 ### Dataset Details:
-- Contains **4000 images** labeled as left_loop, whirl, right_loop, tented_arch, arch.
-- Split for training and validation:
-  - **3200 images** used for training  
-  - **800 images** used for validation  
+- The dataset, provided by **NIST**, contains **4000 images** labeled into the following categories:  
+  **left_loop, whirl, right_loop, tented_arch, arch**.
+- Images were split into:
+  - **3200 images** for training  
+  - **800 images** for validation  
 
+### Dataset Preparation:
+To organize and preprocess the dataset for training:
+- A **segmentation script** was developed to classify and separate images based on the metadata.
+- The script automates the process of moving and categorizing fingerprint images into their respective class directories.  
+- This script is a crucial part of the preprocessing pipeline and ensures the dataset is ready for model training.
+
+### Access and Customization:
+- The segmentation script and dataset preparation pipeline can be provided upon request.  
+- If you'd like to split the dataset or customize the pipeline for your use case, the provided script and instructions will guide you through the process.
+  
 ### Training Setup:
-- A **50-layer Residual Neural Network (ResNet50)** was used to train the deep learning model.
-- The final layer includes a **softmax activation unit** to estimate the probabilities of the input image belonging to specific classes.
+- After preprocessing, the dataset was used with additional data augmentation to enhance the training process.
+- A **50-layer Residual Neural Network (ResNet50)** was used for training, with a **softmax activation unit** in the final layer to estimate the probabilities of the input image belonging to specific classes.
 
 ### Training Results:
 - **Training Accuracy**: ~91.1%  
@@ -78,9 +89,8 @@ Feel free to reach out to me for access to:
 2. The complete dataset used for training and validation.  
 3. Full **frontend UI**.  
 4. **Desktop app interface**.  
-7. Additional **documentation**, deployment scripts, and backend integration.  
-
-**Contact me via LinkedIn or Email** for further information.
+5. Additional **documentation**, deployment scripts, and backend integration.
+6. **Classification Script** which is a crucial part of the preprocessing pipeline and ensures the dataset is ready for model training
 
 ---
 
