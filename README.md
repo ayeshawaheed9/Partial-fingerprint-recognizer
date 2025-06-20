@@ -102,4 +102,13 @@ A screenshot of the home screen from the private part of the project is included
 
 ---
 
+## Creators
+- **Syed Zair Hussain**
+  - [GitHub](https://github.com/zairjafry)
+  - [LinkedIn](https://www.linkedin.com/in/zairjafry)
+- **Ayesha Waheed**
+  - [Github](https://github.com/ayeshawaheed9)
+  - [LinkedIn](https://www.linkedin.com/in/ayesha-waheed-?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B1COxssSJS0qTJ8LneDEMNw%3D%3D)
+
+
 For questions or further assistance, don’t hesitate to reach out. Let’s build together!
